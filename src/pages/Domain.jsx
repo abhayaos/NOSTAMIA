@@ -33,7 +33,7 @@ export default function DomainComingSoon() {
         {/* Description */}
         <p className="mt-4 text-zinc-400 text-lg">
           We’re building a powerful domain platform where you can search,
-          register, transfer, and manage domains instantly — all inside Nostamia.
+          register, transfer, and manage domains instantly — all inside NOSTAMIA.
         </p>
 
         {/* Feature Preview Cards */}
@@ -93,7 +93,7 @@ export default function DomainComingSoon() {
 
         {/* Footer Note */}
         <p className="mt-12 text-sm text-zinc-600">
-          © {new Date().getFullYear()} Nostamia — Domains launching soon
+          © {new Date().getFullYear()} NOSTAMIA — Domains launching soon
         </p>
 
       </div>

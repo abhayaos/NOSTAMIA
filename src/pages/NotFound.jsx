@@ -42,7 +42,7 @@ export default function NotFound() {
 
         <div className="mt-16">
           <p className="text-sm text-zinc-600">
-            © {new Date().getFullYear()} Nostamia. All rights reserved.
+            © {new Date().getFullYear()} NOSTAMIA. All rights reserved.
           </p>
         </div>
       </div>

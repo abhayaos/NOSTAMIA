@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
 const navItems = [
@@ -19,45 +18,45 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         
         {/* Logo */}
-        <Link to="/" className="text-2xl font-bold tracking-wider text-white">
+        <a href="/" className="text-2xl font-bold tracking-wider text-white">
           NOSTAMIA
-        </Link>
+        </a>
 
         {/* Desktop Nav */}
         <div className="hidden lg:flex items-center gap-8">
           {navItems.map((item) => (
-            <Link
+            <a
               key={item.title}
-              to={item.path}
+              href={item.path}
               className="text-sm text-zinc-300 transition hover:text-white"
             >
               {item.title}
-            </Link>
+            </a>
           ))}
         </div>
 
         {/* Actions */}
         <div className="hidden lg:flex items-center gap-4">
-          <Link
-            to="/coming-soon-auth"
+          <a
+            href="/coming-soon-auth/login"
             className="text-sm text-zinc-400 hover:text-white transition"
           >
             Login
-          </Link>
+          </a>
 
-          <Link
-            to="/coming-soon-auth"
+          <a
+            href="/coming-soon-auth/register"
             className="text-sm text-zinc-400 hover:text-white transition"
           >
             Register
-          </Link>
+          </a>
 
-          <Link
-            to="/coming-soon-auth"
+          <a
+            href="/coming-soon-auth/get-started"
             className="rounded-xl bg-white px-5 py-2.5 text-sm font-semibold text-black hover:bg-zinc-200 transition"
           >
             Get Started →
-          </Link>
+          </a>
         </div>
 
         {/* Mobile Button */}
@@ -75,30 +74,30 @@ export default function Navbar() {
           <div className="flex flex-col gap-4 p-6">
             
             {navItems.map((item) => (
-              <Link
+              <a
                 key={item.title}
-                to={item.path}
+                href={item.path}
                 className="text-zinc-300 hover:text-white"
               >
                 {item.title}
-              </Link>
+              </a>
             ))}
 
             <div className="mt-6 flex flex-col gap-3 border-t border-zinc-800 pt-6">
-              <Link to="/coming-soon-auth" className="text-zinc-300">
+              <a href="/coming-soon-auth/login" className="text-zinc-300">
                 Login
-              </Link>
+              </a>
 
-              <Link to="/coming-soon-auth" className="text-zinc-300">
+              <a href="/coming-soon-auth/register" className="text-zinc-300">
                 Register
-              </Link>
+              </a>
 
-              <Link
-                to="/coming-soon-auth"
+              <a
+                href="/coming-soon-auth/get-started"
                 className="rounded-xl bg-white px-4 py-3 text-center font-semibold text-black"
               >
                 Get Started →
-              </Link>
+              </a>
             </div>
           </div>
         </div>

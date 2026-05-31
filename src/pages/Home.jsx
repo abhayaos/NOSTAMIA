@@ -31,7 +31,7 @@ export default function Hero() {
 
         {/* Description */}
         <p className="mx-auto mt-6 max-w-2xl text-lg text-zinc-400">
-          Nostamia gives you blazing fast hosting, VPS, cloud servers,
+          NOSTAMIA gives you blazing fast hosting, VPS, cloud servers,
           and domains — all in one powerful platform built for developers
           and businesses.
         </p>

@@ -120,7 +120,7 @@ export default function Pricing() {
 
               {/* Button */}
               <Link
-                to="/coming-soon-auth"
+                to="/coming-soon-auth/login"
                 className={`mt-8 block text-center rounded-xl py-3 font-semibold transition ${
                   plan.popular
                     ? "bg-white text-black hover:bg-zinc-200"
