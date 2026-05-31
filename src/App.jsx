@@ -6,6 +6,7 @@ import Pricing from './pages/Pricing'
 import Hosting from './pages/Hosting'
 import NotFound from './pages/NotFound'
 import ComingSoonAuth from './pages/ComingSoonAuth'
+import Domain from './pages/Domain'
 function App() {
   return (
     <Router>
@@ -15,6 +16,7 @@ function App() {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/hosting" element={<Hosting />} />
           <Route path="/coming-soon-auth" element={<ComingSoonAuth />} />
+           <Route path="/domains" element={<Domain />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
