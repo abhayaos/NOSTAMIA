@@ -60,7 +60,7 @@ export default function Footer() {
             <Paperclip size={16} className="text-zinc-400 -rotate-45" />
             <span className="text-sm text-zinc-400">
               Built with <span className="text-red-400">❤️</span> by <span className="text-white">Abhaya Bikram Shahi</span> for{" "}
-              <span className="font-semibold text-white">NOSTAMIA</span>
+              <span className="font-semibold text-white">NOSTAMIA.com</span>
             </span>
           </div>
           <p className="text-xs text-zinc-600">
